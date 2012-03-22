@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<Button android:text="@string/cont" 
+		android:id="@+id/cont" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</Button>
+	<Button android:text="@string/tournaments" 
+		android:id="@+id/tournaments"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</Button>
+	<Button android:text="@string/users" 
+		android:id="@+id/users"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</Button>
+	<Button android:text="@string/games" 
+		android:id="@+id/games"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</Button>
+	<Button android:text="@string/statistics" 
+		android:id="@+id/statistics"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</Button>
+	<Button android:text="@string/options" 
+		android:id="@+id/options"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</Button>
+	<Button android:text="@string/exit" 
+		android:id="@+id/exit"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</Button>
+</LinearLayout>
