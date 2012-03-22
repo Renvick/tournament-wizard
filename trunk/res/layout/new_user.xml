@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+	<TextView android:id="@+id/icon_label" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/user_icon"
+		android:layout_alignParentLeft="true" />
+	<ImageView android:id="@+id/icon" android:layout_width="80dip"
+		android:layout_height="80dip" android:layout_toRightOf="@id/icon_label"
+		android:layout_alignTop="@id/icon_label" />
+
+	<TextView android:id="@+id/name_label" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/user_name"
+		android:layout_alignLeft="@id/icon_label" android:layout_below="@id/icon" />
+	<EditText android:id="@+id/name" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:background="@android:drawable/editbox_background"
+		android:layout_toRightOf="@id/name_label" android:layout_alignTop="@id/name_label" />
+
+	<TextView android:id="@+id/color_label" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/user_color"
+		android:layout_alignLeft="@id/name_label" android:layout_below="@id/name" />
+	<Button android:id="@+id/color" android:layout_width="80dip"
+		android:layout_height="40dip" android:layout_toRightOf="@id/color_label"
+		android:layout_alignTop="@id/color_label" />
+		
+	<Button android:id="@+id/user_add" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentRight="true"
+		android:layout_below="@id/color" android:text="@string/ok" />
+	<Button android:id="@+id/user_cancel" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_toLeftOf="@id/user_add"
+		android:layout_alignTop="@id/user_add" android:text="@string/cancel" />
+</RelativeLayout>

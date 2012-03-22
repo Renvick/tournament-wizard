@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Tournament Manager</string>
+<string name="cont">Continue</string>
+<string name="tournaments">Tournaments</string>
+<string name="users">Users</string>
+<string name="games">Games</string>
+<string name="statistics">Statistics</string>
+<string name="options">Options</string>
+<string name="exit">Exit</string>
+<string name="add_user">Add user</string>
+<string name="no_users">There are no users</string>
+<string name="user_name">Name: </string>
+<string name="user_icon">Icon: </string>
+<string name="pick_color">Pick a color</string>
+<string name="user_color">Color: </string>
+<string name="ok">Ok</string>
+<string name="cancel">Cancel</string>
+<string name="edit">Edit</string>
+<string name="delete">Delete</string>
+</resources>
