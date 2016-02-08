@@ -1,0 +1,1 @@
+An Android application used for creating different kind of tournaments and competitive events.
